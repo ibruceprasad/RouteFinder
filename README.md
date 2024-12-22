@@ -13,3 +13,11 @@ The `CalculationServices/` directory is responsible for providing the necessary 
 
 The `xUnit` test project `RouteFinder.Tests/` covers all the test scenarios mentioned in the requirement<br>
 Note: The test case Test #9: The length of the shortest route from B to B is 9 ( B=>C=>E=>B ) fails
+
+
+**Project structure:**<br><br>
+![image](https://github.com/user-attachments/assets/ee0942fa-bdea-4ae3-a3dd-9ad83d546133)
+
+**Test Results**<br><br>
+![image](https://github.com/user-attachments/assets/a6ba52ac-6d4c-4368-b135-d0694a88d0e7)
+
