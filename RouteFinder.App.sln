@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ED075BFC-85BA-43EE-9D38-2CC87C19C2E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C13FB15C-9DF3-4E03-B723-5E0AAF9B6F22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryServices", "src\RepositoryServices\RepositoryServices.csproj", "{62D42C74-8B1D-43F5-B6E0-C8679BB7F351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculationServices", "src\CalculationServices\CalculationServices.csproj", "{82E7A4CD-E4B2-43C7-956D-4543F3B9B6E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteFinder.App", "src\RouteFinder.App\RouteFinder.App.csproj", "{819338CD-DE93-4B63-A977-E58F1ACC85B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteFinder.Tests", "tests\TrainRouteFinder.Tests\RouteFinder.Tests.csproj", "{9D1D0651-4720-4DDF-B1DD-F7780CE668E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62D42C74-8B1D-43F5-B6E0-C8679BB7F351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D42C74-8B1D-43F5-B6E0-C8679BB7F351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D42C74-8B1D-43F5-B6E0-C8679BB7F351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D42C74-8B1D-43F5-B6E0-C8679BB7F351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82E7A4CD-E4B2-43C7-956D-4543F3B9B6E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E7A4CD-E4B2-43C7-956D-4543F3B9B6E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E7A4CD-E4B2-43C7-956D-4543F3B9B6E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E7A4CD-E4B2-43C7-956D-4543F3B9B6E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{819338CD-DE93-4B63-A977-E58F1ACC85B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{819338CD-DE93-4B63-A977-E58F1ACC85B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{819338CD-DE93-4B63-A977-E58F1ACC85B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{819338CD-DE93-4B63-A977-E58F1ACC85B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D1D0651-4720-4DDF-B1DD-F7780CE668E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D1D0651-4720-4DDF-B1DD-F7780CE668E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D1D0651-4720-4DDF-B1DD-F7780CE668E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D1D0651-4720-4DDF-B1DD-F7780CE668E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62D42C74-8B1D-43F5-B6E0-C8679BB7F351} = {ED075BFC-85BA-43EE-9D38-2CC87C19C2E3}
+		{82E7A4CD-E4B2-43C7-956D-4543F3B9B6E7} = {ED075BFC-85BA-43EE-9D38-2CC87C19C2E3}
+		{819338CD-DE93-4B63-A977-E58F1ACC85B5} = {ED075BFC-85BA-43EE-9D38-2CC87C19C2E3}
+		{9D1D0651-4720-4DDF-B1DD-F7780CE668E5} = {C13FB15C-9DF3-4E03-B723-5E0AAF9B6F22}
+	EndGlobalSection
+EndGlobal

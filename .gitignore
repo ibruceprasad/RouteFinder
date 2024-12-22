@@ -1,0 +1,8 @@
+.git/
+.vs/
+src/CalculationServices/bin
+src/CalculationServices/obj
+src/RepositoryServices/bin
+src/RepositoryServices/obj
+src/RouteFinder.App/bin
+src/RouteFinder.App/obj
